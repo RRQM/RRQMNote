@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>RRQMSocket_SerializeConverter</name>
+    </assembly>
+    <members>
+        <member name="T:RRQMSocket_SerializeConverter.Control.JsonT">
+            <summary>
+            Json泛型序列化
+            </summary>
+        </member>
+        <member name="P:RRQMSocket_SerializeConverter.Control.JsonT.Types">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RRQMSocket_SerializeConverter.Control.JsonT.ReturnType">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:RRQMSocket_SerializeConverter.JsonSerializeConverter">
+            <summary>
+            应用于RRQMSocket的Json序列化类
+            </summary>
+        </member>
+        <member name="M:RRQMSocket_SerializeConverter.JsonSerializeConverter.Deserialize(System.Byte[],System.Int32,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="buffer"></param>
+            <param name="index"></param>
+            <param name="length"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RRQMSocket_SerializeConverter.JsonSerializeConverter.Serialize(RRQMSocket.RPC.RPCMethod)">
+            <summary>
+            
+            </summary>
+            <param name="waitResult"></param>
+            <returns></returns>
+        </member>
+        <member name="T:RRQMSocket_SerializeConverter.JsonTSerializeConverter">
+            <summary>
+            应用于RRQMSocket的Json序列化类(该类支持泛型)
+            </summary>
+        </member>
+        <member name="M:RRQMSocket_SerializeConverter.JsonTSerializeConverter.Deserialize(System.Byte[],System.Int32,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="buffer"></param>
+            <param name="index"></param>
+            <param name="length"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RRQMSocket_SerializeConverter.JsonTSerializeConverter.Serialize(RRQMSocket.RPC.RPCMethod)">
+            <summary>
+            
+            </summary>
+            <param name="waitResult"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
