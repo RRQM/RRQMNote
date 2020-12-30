@@ -25,6 +25,13 @@ namespace ViewModels.ViewModel
         #endregion
 
         #region 属性（Attribute）
+        private bool isDisplaySetting=false;
+
+        public bool IsDisplaySetting
+        {
+            get { return isDisplaySetting; }
+            set { isDisplaySetting = value; OnPropertyChanged(); }
+        }
 
         #endregion
 
@@ -35,12 +42,22 @@ namespace ViewModels.ViewModel
         #region 私有方法（PrivateMethod）
         private void NewCreatNote()
         {
-            Messenger.Default.Send("NewCreatNote");
+            if (this.IsDisplaySetting)
+            {
+                this.IsDisplaySetting = false;
+                Messenger.Default.Send("GoBackMainPage");
+            }
+            else
+            {
+                Messenger.Default.Send("NewCreatNote");
+            }
+           
         }
 
         private void SettingPage()
         {
             Messenger.Default.Send("ShowSettingPage");
+            this.IsDisplaySetting = true;
         }
         #endregion
 

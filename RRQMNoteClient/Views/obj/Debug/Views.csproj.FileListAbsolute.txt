@@ -5,3 +5,11 @@ D:\OpenCode\RRQMNote\RRQMNoteClient\Views\obj\Debug\Views.csproj.GenerateResourc
 D:\OpenCode\RRQMNote\RRQMNoteClient\Views\obj\Debug\Views.csproj.CoreCompileInputs.cache
 D:\OpenCode\RRQMNote\RRQMNoteClient\Views\obj\Debug\Views.dll
 D:\OpenCode\RRQMNote\RRQMNoteClient\Views\obj\Debug\Views.pdb
+E:\CodeOpen\RRQMNote\RRQMNoteClient\Views\bin\Debug\Views.dll
+E:\CodeOpen\RRQMNote\RRQMNoteClient\Views\bin\Debug\Views.pdb
+E:\CodeOpen\RRQMNote\RRQMNoteClient\Views\obj\Debug\Views.csprojAssemblyReference.cache
+E:\CodeOpen\RRQMNote\RRQMNoteClient\Views\obj\Debug\Views.Properties.Resources.resources
+E:\CodeOpen\RRQMNote\RRQMNoteClient\Views\obj\Debug\Views.csproj.GenerateResource.cache
+E:\CodeOpen\RRQMNote\RRQMNoteClient\Views\obj\Debug\Views.csproj.CoreCompileInputs.cache
+E:\CodeOpen\RRQMNote\RRQMNoteClient\Views\obj\Debug\Views.dll
+E:\CodeOpen\RRQMNote\RRQMNoteClient\Views\obj\Debug\Views.pdb

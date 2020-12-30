@@ -10,6 +10,6 @@
                      Width="360"
                      Style="{DynamicResource Window_ListNote}"
                      mc:Ignorable="d" DataContext="{Binding Source={StaticResource Locator}, Path=MainViewModel}">
-    <Frame x:Name="frame" Source="MainPage.xaml"/>
+    <Frame x:Name="frame" Source="MainPage.xaml" NavigationUIVisibility="Hidden"/>
 
 </rrqmSkin:RRQMWindow>

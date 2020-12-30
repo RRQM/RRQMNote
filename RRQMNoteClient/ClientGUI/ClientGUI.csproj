@@ -34,11 +34,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="PresentationFramework.Aero2" />
     <Reference Include="RRQMMVVM, Version=2.0.3.0, Culture=neutral, PublicKeyToken=1691c0176f5d64c0, processorArchitecture=MSIL">
       <HintPath>..\packages\RRQMMVVM.2.0.3\lib\net45\RRQMMVVM.dll</HintPath>
     </Reference>
-    <Reference Include="RRQMSkin, Version=2.0.4.0, Culture=neutral, PublicKeyToken=1691c0176f5d64c0, processorArchitecture=MSIL">
-      <HintPath>..\packages\RRQMSkin.2.0.4\lib\net45\RRQMSkin.dll</HintPath>
+    <Reference Include="RRQMSkin, Version=2.0.6.0, Culture=neutral, PublicKeyToken=1691c0176f5d64c0, processorArchitecture=MSIL">
+      <HintPath>..\packages\RRQMSkin.2.0.6\lib\net45\RRQMSkin.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />

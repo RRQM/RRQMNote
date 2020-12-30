@@ -23,5 +23,11 @@ namespace ClientGUI
         {
             MainWindow.NavigationService.Navigate(new Uri("SettingPage.xaml", UriKind.Relative));
         }
+        
+        [RegistMethod]
+        public void GoBackMainPage()
+        {
+            MainWindow.NavigationService.GoBack();
+        }
     }
 }

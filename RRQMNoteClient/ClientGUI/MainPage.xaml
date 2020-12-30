@@ -3,7 +3,7 @@
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
       xmlns:local="clr-namespace:ClientGUI"
-      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:rrqmskin="若汝棋茗_RRQMSkin"
       Title="MainPage"
       d:DesignHeight="650"
       d:DesignWidth="360"
@@ -26,7 +26,7 @@
             </EventTrigger.Actions>
         </EventTrigger>
     </Page.Triggers>
-    <Grid VerticalAlignment="Center" HorizontalAlignment="Center">
+    <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="50" />
             <RowDefinition Height="50" />
@@ -34,12 +34,12 @@
         </Grid.RowDefinitions>
         <TextBlock Text="便笺" Margin="10,0,0,0" VerticalAlignment="Center" FontFamily="微软雅黑" FontSize="22"
                    FontWeight="Bold" />
-        <Border Grid.Row="1"  Background="AliceBlue"/>
+        <rrqmskin:SearchBox Grid.Row="1" Style="{DynamicResource SearchBox}"/>
         <ListBox Grid.Row="2" Style="{DynamicResource ListBox_NoteList}">
-            <ListBoxItem Content="12321" Background="Firebrick"/>
-            <ListBoxItem Content="12321" Background="Firebrick"/>
-            <ListBoxItem Content="12321" Background="Firebrick"/>
-            <ListBoxItem Content="12321" Background="Firebrick"/>
+            <ListBoxItem Content="12321"/>
+            <ListBoxItem Content="12321"/>
+            <ListBoxItem Content="12321"/>
+            <ListBoxItem Content="12321"/>
         </ListBox>
     </Grid>
 </Page>

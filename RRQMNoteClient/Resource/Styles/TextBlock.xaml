@@ -4,5 +4,7 @@
                     xmlns:rrqmSkin="若汝棋茗_RRQMSkin">
     <Style x:Key="TextBlock_Icon" TargetType="TextBlock">
         <Setter Property="FontFamily" Value="../Fonts/#iconfont" />
+        <Setter Property="VerticalAlignment" Value="Center" />
+        <Setter Property="HorizontalAlignment" Value="Center" />
     </Style>
 </ResourceDictionary>

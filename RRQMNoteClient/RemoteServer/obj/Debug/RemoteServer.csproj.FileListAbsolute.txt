@@ -10,3 +10,16 @@ D:\OpenCode\RRQMNote\RRQMNoteClient\RemoteServer\obj\Debug\RemoteServer.csproj.C
 D:\OpenCode\RRQMNote\RRQMNoteClient\RemoteServer\obj\Debug\RemoteServer.csproj.CopyComplete
 D:\OpenCode\RRQMNote\RRQMNoteClient\RemoteServer\obj\Debug\RemoteServer.dll
 D:\OpenCode\RRQMNote\RRQMNoteClient\RemoteServer\obj\Debug\RemoteServer.pdb
+E:\CodeOpen\RRQMNote\RRQMNoteClient\RemoteServer\bin\Debug\RemoteServer.dll
+E:\CodeOpen\RRQMNote\RRQMNoteClient\RemoteServer\bin\Debug\RemoteServer.pdb
+E:\CodeOpen\RRQMNote\RRQMNoteClient\RemoteServer\bin\Debug\Newtonsoft.Json.dll
+E:\CodeOpen\RRQMNote\RRQMNoteClient\RemoteServer\bin\Debug\RRQMSocket.dll
+E:\CodeOpen\RRQMNote\RRQMNoteClient\RemoteServer\bin\Debug\RRQMSocket_SerializeConverter.dll
+E:\CodeOpen\RRQMNote\RRQMNoteClient\RemoteServer\bin\Debug\Newtonsoft.Json.xml
+E:\CodeOpen\RRQMNote\RRQMNoteClient\RemoteServer\bin\Debug\RRQMSocket.xml
+E:\CodeOpen\RRQMNote\RRQMNoteClient\RemoteServer\bin\Debug\RRQMSocket_SerializeConverter.xml
+E:\CodeOpen\RRQMNote\RRQMNoteClient\RemoteServer\obj\Debug\RemoteServer.csprojAssemblyReference.cache
+E:\CodeOpen\RRQMNote\RRQMNoteClient\RemoteServer\obj\Debug\RemoteServer.csproj.CoreCompileInputs.cache
+E:\CodeOpen\RRQMNote\RRQMNoteClient\RemoteServer\obj\Debug\RemoteServer.csproj.CopyComplete
+E:\CodeOpen\RRQMNote\RRQMNoteClient\RemoteServer\obj\Debug\RemoteServer.dll
+E:\CodeOpen\RRQMNote\RRQMNoteClient\RemoteServer\obj\Debug\RemoteServer.pdb

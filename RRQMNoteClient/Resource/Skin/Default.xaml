@@ -7,5 +7,6 @@
         <ResourceDictionary Source="../Styles/Button.xaml"/>
         <ResourceDictionary Source="../Styles/Windows.xaml"/>
         <ResourceDictionary Source="../Styles/ListBox.xaml"/>
+        <ResourceDictionary Source="../Styles/Other.xaml"/>
     </ResourceDictionary.MergedDictionaries>
 </ResourceDictionary>
