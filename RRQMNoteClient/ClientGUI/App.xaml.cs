@@ -5,6 +5,7 @@ using System.Data;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
+using RRQMMVVM;
 
 namespace ClientGUI
 {
@@ -13,5 +14,10 @@ namespace ClientGUI
     /// </summary>
     public partial class App : Application
     {
+        protected override void OnStartup(StartupEventArgs e)
+        {
+            base.OnStartup(e);
+            Messenger.Default.RegistAll();
+        }
     }
 }

@@ -4,17 +4,17 @@
 library
 C#
 .cs
-E:\CodeOpen\RRQMNote\RRQMNoteClient\Resource\obj\Debug\
+D:\OpenCode\RRQMNote\RRQMNoteClient\Resource\obj\Debug\
 Resource
 none
 false
 DEBUG;TRACE
 
-1-98425716
+5-126389277
 
-5-1800152474
-13-1142990016
-UserControl1.xaml;
+4-77640965
+14-634286423
+Skin\Default.xaml;Styles\Button.xaml;Styles\ListBox.xaml;Styles\TextBlock.xaml;Styles\Windows.xaml;
 
 True
 

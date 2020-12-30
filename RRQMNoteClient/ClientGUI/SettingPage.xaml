@@ -1,0 +1,40 @@
+﻿<Page x:Class="ClientGUI.SettingPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:local="clr-namespace:ClientGUI"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      Title="SettingPage"
+      d:DesignHeight="650"
+      d:DesignWidth="360"
+      mc:Ignorable="d" RenderTransformOrigin="0.5,0.5">
+    <Page.RenderTransform>
+        <TransformGroup>
+            <ScaleTransform x:Name="scale"/>
+        </TransformGroup>
+    </Page.RenderTransform>
+    <Page.Triggers>
+        <EventTrigger RoutedEvent="Page.Loaded">
+            <EventTrigger.Actions>
+                <BeginStoryboard>
+                    <Storyboard>
+                        <DoubleAnimation Duration="0:0:0.2" Storyboard.TargetName="scale" Storyboard.TargetProperty="ScaleX" From="0.6" To="1" />
+                        <DoubleAnimation Duration="0:0:0.2" Storyboard.TargetName="scale" Storyboard.TargetProperty="ScaleY" From="0.6" To="1" />
+                        <DoubleAnimation Duration="0:0:0.2" Storyboard.TargetProperty="Opacity" From="0" To="1" />
+                    </Storyboard>
+                </BeginStoryboard>
+            </EventTrigger.Actions>
+        </EventTrigger>
+    </Page.Triggers>
+
+    <Grid VerticalAlignment="Center" HorizontalAlignment="Center">
+        <StackPanel>
+            <TextBlock Text="123123123123"/>
+            <TextBlock Text="123123123123"/>
+            <TextBlock Text="123123123123"/>
+            <TextBlock Text="123123123123"/>
+            <TextBlock Text="123123123123"/>
+            <TextBlock Text="123123123123"/>
+        </StackPanel>
+    </Grid>
+</Page>

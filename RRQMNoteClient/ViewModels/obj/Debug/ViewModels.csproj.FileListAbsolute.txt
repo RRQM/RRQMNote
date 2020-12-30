@@ -1,0 +1,8 @@
+D:\OpenCode\RRQMNote\RRQMNoteClient\ViewModels\bin\Debug\ViewModels.dll
+D:\OpenCode\RRQMNote\RRQMNoteClient\ViewModels\bin\Debug\ViewModels.pdb
+D:\OpenCode\RRQMNote\RRQMNoteClient\ViewModels\obj\Debug\ViewModels.csproj.CoreCompileInputs.cache
+D:\OpenCode\RRQMNote\RRQMNoteClient\ViewModels\obj\Debug\ViewModels.dll
+D:\OpenCode\RRQMNote\RRQMNoteClient\ViewModels\obj\Debug\ViewModels.pdb
+D:\OpenCode\RRQMNote\RRQMNoteClient\ViewModels\bin\Debug\RRQMMVVM.dll
+D:\OpenCode\RRQMNote\RRQMNoteClient\ViewModels\obj\Debug\ViewModels.csprojAssemblyReference.cache
+D:\OpenCode\RRQMNote\RRQMNoteClient\ViewModels\obj\Debug\ViewModels.csproj.CopyComplete

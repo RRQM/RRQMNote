@@ -1,0 +1,12 @@
+D:\OpenCode\RRQMNote\RRQMNoteClient\RemoteServer\bin\Debug\RemoteServer.dll
+D:\OpenCode\RRQMNote\RRQMNoteClient\RemoteServer\bin\Debug\RemoteServer.pdb
+D:\OpenCode\RRQMNote\RRQMNoteClient\RemoteServer\bin\Debug\Newtonsoft.Json.dll
+D:\OpenCode\RRQMNote\RRQMNoteClient\RemoteServer\bin\Debug\RRQMSocket.dll
+D:\OpenCode\RRQMNote\RRQMNoteClient\RemoteServer\bin\Debug\RRQMSocket_SerializeConverter.dll
+D:\OpenCode\RRQMNote\RRQMNoteClient\RemoteServer\bin\Debug\Newtonsoft.Json.xml
+D:\OpenCode\RRQMNote\RRQMNoteClient\RemoteServer\bin\Debug\RRQMSocket.xml
+D:\OpenCode\RRQMNote\RRQMNoteClient\RemoteServer\bin\Debug\RRQMSocket_SerializeConverter.xml
+D:\OpenCode\RRQMNote\RRQMNoteClient\RemoteServer\obj\Debug\RemoteServer.csproj.CoreCompileInputs.cache
+D:\OpenCode\RRQMNote\RRQMNoteClient\RemoteServer\obj\Debug\RemoteServer.csproj.CopyComplete
+D:\OpenCode\RRQMNote\RRQMNoteClient\RemoteServer\obj\Debug\RemoteServer.dll
+D:\OpenCode\RRQMNote\RRQMNoteClient\RemoteServer\obj\Debug\RemoteServer.pdb

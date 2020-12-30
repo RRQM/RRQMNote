@@ -12,17 +12,23 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using RRQMSkin;
 
 namespace ClientGUI
 {
     /// <summary>
     /// MainWindow.xaml 的交互逻辑
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class MainWindow : RRQMWindow
     {
         public MainWindow()
         {
             InitializeComponent();
+            NavigationService = this.frame.NavigationService;
         }
+
+        public static NavigationService NavigationService { get;private set; }
+
+       
     }
 }

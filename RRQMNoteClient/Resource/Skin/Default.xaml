@@ -1,0 +1,11 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:Resource.Skin"
+                    xmlns:rrqmSkin="若汝棋茗_RRQMSkin">
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="../Styles/TextBlock.xaml"/>
+        <ResourceDictionary Source="../Styles/Button.xaml"/>
+        <ResourceDictionary Source="../Styles/Windows.xaml"/>
+        <ResourceDictionary Source="../Styles/ListBox.xaml"/>
+    </ResourceDictionary.MergedDictionaries>
+</ResourceDictionary>

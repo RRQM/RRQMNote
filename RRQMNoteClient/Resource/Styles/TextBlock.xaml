@@ -1,0 +1,8 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:Resource.Styles"
+                    xmlns:rrqmSkin="若汝棋茗_RRQMSkin">
+    <Style x:Key="TextBlock_Icon" TargetType="TextBlock">
+        <Setter Property="FontFamily" Value="../Fonts/#iconfont" />
+    </Style>
+</ResourceDictionary>

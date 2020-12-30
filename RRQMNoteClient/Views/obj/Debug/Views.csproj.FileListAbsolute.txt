@@ -1,0 +1,7 @@
+D:\OpenCode\RRQMNote\RRQMNoteClient\Views\bin\Debug\Views.dll
+D:\OpenCode\RRQMNote\RRQMNoteClient\Views\bin\Debug\Views.pdb
+D:\OpenCode\RRQMNote\RRQMNoteClient\Views\obj\Debug\Views.Properties.Resources.resources
+D:\OpenCode\RRQMNote\RRQMNoteClient\Views\obj\Debug\Views.csproj.GenerateResource.cache
+D:\OpenCode\RRQMNote\RRQMNoteClient\Views\obj\Debug\Views.csproj.CoreCompileInputs.cache
+D:\OpenCode\RRQMNote\RRQMNoteClient\Views\obj\Debug\Views.dll
+D:\OpenCode\RRQMNote\RRQMNoteClient\Views\obj\Debug\Views.pdb
