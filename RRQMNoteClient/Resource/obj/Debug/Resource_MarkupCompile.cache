@@ -4,7 +4,7 @@
 library
 C#
 .cs
-E:\CodeOpen\RRQMNote\RRQMNoteClient\Resource\obj\Debug\
+D:\OpenCode\RRQMNote\RRQMNoteClient\Resource\obj\Debug\
 Resource
 none
 false
@@ -13,7 +13,7 @@ DEBUG;TRACE
 61209806066
 
 3-630027162
-161557725499
+17649833458
 Skin\Default.xaml;Styles\Button.xaml;Styles\ListBox.xaml;Styles\Other.xaml;Styles\TextBlock.xaml;Styles\Windows.xaml;
 
 False

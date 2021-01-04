@@ -54,3 +54,5 @@ E:\CodeOpen\RRQMNote\RRQMNoteClient\ClientGUI\obj\Debug\ClientGUI.csproj.CoreCom
 E:\CodeOpen\RRQMNote\RRQMNoteClient\ClientGUI\obj\Debug\ClientGUI.csproj.CopyComplete
 E:\CodeOpen\RRQMNote\RRQMNoteClient\ClientGUI\obj\Debug\ClientGUI.exe
 E:\CodeOpen\RRQMNote\RRQMNoteClient\ClientGUI\obj\Debug\ClientGUI.pdb
+D:\OpenCode\RRQMNote\RRQMNoteClient\ClientGUI\bin\Debug\Views.dll
+D:\OpenCode\RRQMNote\RRQMNoteClient\ClientGUI\bin\Debug\Views.pdb

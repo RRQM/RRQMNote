@@ -38,3 +38,9 @@ E:\CodeOpen\RRQMNote\RRQMNoteClient\Resource\bin\Debug\ViewModels.dll
 E:\CodeOpen\RRQMNote\RRQMNoteClient\Resource\bin\Debug\RRQMMVVM.dll
 E:\CodeOpen\RRQMNote\RRQMNoteClient\Resource\bin\Debug\ViewModels.pdb
 E:\CodeOpen\RRQMNote\RRQMNoteClient\Resource\obj\Debug\Styles\Other.baml
+D:\OpenCode\RRQMNote\RRQMNoteClient\Resource\bin\Debug\ViewModels.dll
+D:\OpenCode\RRQMNote\RRQMNoteClient\Resource\bin\Debug\RRQMMVVM.dll
+D:\OpenCode\RRQMNote\RRQMNoteClient\Resource\bin\Debug\ViewModels.pdb
+D:\OpenCode\RRQMNote\RRQMNoteClient\Resource\obj\Debug\Styles\Other.baml
+D:\OpenCode\RRQMNote\RRQMNoteClient\Resource\bin\Debug\Views.dll
+D:\OpenCode\RRQMNote\RRQMNoteClient\Resource\bin\Debug\Views.pdb

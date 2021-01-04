@@ -81,6 +81,10 @@
       <Project>{4dad51b6-5dd8-46ed-8a35-db04a055f1be}</Project>
       <Name>ViewModels</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Views\Views.csproj">
+      <Project>{7316717d-ed7e-42ab-8618-29db56478c9f}</Project>
+      <Name>Views</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Page Include="Skin\Default.xaml">

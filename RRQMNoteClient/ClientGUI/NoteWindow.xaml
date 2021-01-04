@@ -8,6 +8,9 @@
                      Title="NoteWindow"
                      Height="310"
                      Width="340"
-                     mc:Ignorable="d" Style="{DynamicResource Window_Note}">
-    <Grid />
-</rrqmSkin:RRQMWindow>
+                     MinWidth="200"
+                     MinHeight="180"
+                     DataContext="{Binding Source={StaticResource Locator}, Path=MainViewModel}"
+                     Style="{DynamicResource Window_Note}"
+                     WindowStartupLocation="CenterScreen"
+                     mc:Ignorable="d" />

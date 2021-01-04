@@ -8,8 +8,9 @@
                      Title="MainWindow"
                      Height="650"
                      Width="360"
+                     DataContext="{Binding Source={StaticResource Locator}, Path=MainViewModel}"
                      Style="{DynamicResource Window_ListNote}"
-                     mc:Ignorable="d" DataContext="{Binding Source={StaticResource Locator}, Path=MainViewModel}">
-    <Frame x:Name="frame" Source="MainPage.xaml" NavigationUIVisibility="Hidden"/>
+                     mc:Ignorable="d" WindowStartupLocation="CenterScreen">
+    <Frame x:Name="frame" NavigationUIVisibility="Hidden" Source="MainPage.xaml" />
 
 </rrqmSkin:RRQMWindow>

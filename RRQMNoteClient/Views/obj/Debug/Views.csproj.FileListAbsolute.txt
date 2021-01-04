@@ -13,3 +13,9 @@ E:\CodeOpen\RRQMNote\RRQMNoteClient\Views\obj\Debug\Views.csproj.GenerateResourc
 E:\CodeOpen\RRQMNote\RRQMNoteClient\Views\obj\Debug\Views.csproj.CoreCompileInputs.cache
 E:\CodeOpen\RRQMNote\RRQMNoteClient\Views\obj\Debug\Views.dll
 E:\CodeOpen\RRQMNote\RRQMNoteClient\Views\obj\Debug\Views.pdb
+D:\OpenCode\RRQMNote\RRQMNoteClient\Views\obj\Debug\Views.csprojAssemblyReference.cache
+D:\OpenCode\RRQMNote\RRQMNoteClient\Views\obj\Debug\MenuPanel.g.cs
+D:\OpenCode\RRQMNote\RRQMNoteClient\Views\obj\Debug\Views_MarkupCompile.cache
+D:\OpenCode\RRQMNote\RRQMNoteClient\Views\obj\Debug\Views_MarkupCompile.lref
+D:\OpenCode\RRQMNote\RRQMNoteClient\Views\obj\Debug\MenuPanel.baml
+D:\OpenCode\RRQMNote\RRQMNoteClient\Views\obj\Debug\Views.g.resources

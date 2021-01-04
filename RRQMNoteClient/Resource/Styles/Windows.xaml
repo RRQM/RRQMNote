@@ -1,10 +1,8 @@
 ﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-                    xmlns:Themes="clr-namespace:Microsoft.Windows.Themes;assembly=PresentationFramework.Aero2"
-                    xmlns:converter="conver"
-                    xmlns:local="clr-namespace:Resource.Styles"
                     xmlns:rrqmSkin="若汝棋茗_RRQMSkin"
-                    xmlns:valueconverter="clr-namespace:ViewModels.ValueConverter;assembly=ViewModels">
+                    xmlns:valueconverter="clr-namespace:ViewModels.ValueConverter;assembly=ViewModels"
+                    xmlns:views="clr-namespace:Views;assembly=Views">
 
     <valueconverter:IconBackValueConverter x:Key="iconBackValueConverter" />
     <valueconverter:IconSettingVisibleValueConverter x:Key="iconSettingVisibleValueConverter" />
@@ -26,28 +24,30 @@
                                     <ColumnDefinition />
                                     <ColumnDefinition Width="Auto" />
                                 </Grid.ColumnDefinitions>
-                                <Button x:Name="creatButton" Grid.Column="0" Width="40" Height="40"
-                                        Command="{Binding NewCreatNoteCommand}"
+                                <Button x:Name="creatButton"
                                         Content="{Binding IsDisplaySetting, Converter={StaticResource iconBackValueConverter}}"
+                                        Height="40" Width="40" Grid.Column="0"
+                                        Command="{Binding NewCreatNoteCommand}"
                                         FontSize="16"
                                         Style="{DynamicResource Button_Icon}" />
                                 <Grid x:Name="title" Grid.Column="1" Background="Transparent" />
                                 <StackPanel Grid.Column="2" Orientation="Horizontal">
-                                    <Button x:Name="settingButton" Width="40" Height="40"
+                                    <Button x:Name="settingButton" Content="&#xE7C9;" Height="40" Width="40"
                                             Command="{Binding SettingPageCommand}"
-                                            Content="&#xE7C9;" FontSize="16"
+                                            FontSize="16"
                                             Style="{DynamicResource Button_Icon}"
                                             Visibility="{Binding IsDisplaySetting, Converter={StaticResource iconSettingVisibleValueConverter}}" />
-                                    <Button x:Name="closeButton" Width="40" Height="40"
+                                    <Button x:Name="closeButton" Content="&#xE607;" Height="40" Width="40"
                                             Command="{Binding CloseWindowCommand, RelativeSource={RelativeSource TemplatedParent}}"
-                                            Content="&#xE607;" FontSize="16"
+                                            FontSize="16"
                                             Style="{DynamicResource Button_Icon}" />
                                 </StackPanel>
                             </Grid>
-                            <ContentPresenter x:Name="content" Grid.Row="1" Grid.RowSpan="2"
+                            <ContentPresenter x:Name="content"
+                                              Content="{TemplateBinding Content}"
+                                              Grid.Row="1" Grid.RowSpan="2"
                                               Margin="{TemplateBinding Padding}"
-                                              HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
-                                              Content="{TemplateBinding Content}" />
+                                              HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
                         </Grid>
                     </Border>
                     <ControlTemplate.Triggers>
@@ -71,37 +71,62 @@
                             Background="{TemplateBinding Background}"
                             BorderBrush="Black" BorderThickness="1">
                         <Grid>
-                            <Grid.RowDefinitions>
-                                <RowDefinition Height="40" />
-                                <RowDefinition />
-                            </Grid.RowDefinitions>
-                            <Grid x:Name="header" Grid.Row="0" Panel.ZIndex="1">
-                                <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="40" />
-                                    <ColumnDefinition />
-                                    <ColumnDefinition Width="Auto" />
-                                </Grid.ColumnDefinitions>
-                                <Button x:Name="creatButton" Grid.Column="0" Width="40" Height="40"
-                                        Command="{Binding CloseWindowCommand, RelativeSource={RelativeSource TemplatedParent}}"
-                                        Content="&#xE610;" FontSize="16"
-                                        Style="{DynamicResource Button_Icon}" />
-                                <Grid x:Name="title" Grid.Column="1" Background="Transparent" />
-                                <StackPanel Grid.Column="2" Orientation="Horizontal">
-                                    <Button x:Name="settingButton" Width="40" Height="40"
-                                            Command="{Binding CloseWindowCommand, RelativeSource={RelativeSource TemplatedParent}}"
-                                            Content="&#xE60C;" FontSize="16"
+                            <Grid x:Name="contentGrid" Background="#E4F9E0">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="40" />
+                                    <RowDefinition />
+                                    <RowDefinition Height="40" />
+                                </Grid.RowDefinitions>
+                                <Grid x:Name="header" Height="40" Grid.Row="0" VerticalAlignment="Center" Panel.ZIndex="1"
+                                      Background="#CBF1C4">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="40" />
+                                        <ColumnDefinition />
+                                        <ColumnDefinition Width="Auto" />
+                                    </Grid.ColumnDefinitions>
+                                    <Button x:Name="creatButton" Content="&#xE610;" Height="40" Width="40" Grid.Column="0"
+                                            Command="{Binding NewCreatNoteCommand}"
+                                            FontSize="16"
                                             Style="{DynamicResource Button_Icon}" />
-                                    <Button x:Name="closeButton" Width="40" Height="40"
-                                            Command="{Binding CloseWindowCommand, RelativeSource={RelativeSource TemplatedParent}}"
-                                            Content="&#xE607;" FontSize="16"
-                                            Style="{DynamicResource Button_Icon}" />
-                                </StackPanel>
+                                    <Grid x:Name="title" Grid.Column="1" Background="Transparent" />
+                                    <StackPanel Grid.Column="2" Orientation="Horizontal">
+                                        <TextBlock Text="&#xe612;"  Width="40" Opacity="0.5"  FontSize="20"
+                                                   Style="{DynamicResource TextBlock_Icon}" />
+                                        <ToggleButton x:Name="menuButton" Content="&#xE60C;" Height="40" Width="40" FontSize="16"
+                                                      Style="{DynamicResource ToggleButton_Icon}" />
+                                        <Button x:Name="closeButton" Content="&#xE607;" Height="40" Width="40"
+                                                Command="{Binding CloseWindowCommand, RelativeSource={RelativeSource TemplatedParent}}"
+                                                FontSize="16"
+                                                Style="{DynamicResource Button_Icon}" />
+                                    </StackPanel>
+                                </Grid>
+
+                                <RichTextBox x:Name="content" Grid.Row="1" Background="Transparent" BorderThickness="0" VerticalScrollBarVisibility="Auto">
+                                    <RichTextBox.Resources>
+                                        <Style TargetType="{x:Type Paragraph}">
+                                            <Setter Property="Margin" Value="0" />
+                                        </Style>
+                                    </RichTextBox.Resources>
+                                </RichTextBox>
+                                <Border x:Name="bottomToolBar" Grid.Row="2" Background="Transparent" BorderBrush="AliceBlue" BorderThickness="0,1,0,0">
+                                    <StackPanel Orientation="Horizontal">
+                                        <Button Content="&#xe608;" Height="35" Width="35" Margin="3,0" Command="EditingCommands.ToggleBold"
+                                                Style="{DynamicResource Button_ToolIcon}" />
+                                        <Button Content="&#xe613;" Height="35" Width="35" Margin="3,0" Command="EditingCommands.ToggleItalic"
+                                                Style="{DynamicResource Button_ToolIcon}" />
+                                        <Button Content="&#xe611;" Height="35" Width="35" Margin="3,0" Command="EditingCommands.ToggleUnderline"
+                                                Style="{DynamicResource Button_ToolIcon}" />
+                                        <Button Content="&#xe62b;" Height="35" Width="35" Margin="3,0" Command="EditingCommands.ToggleBullets"
+                                                Style="{DynamicResource Button_ToolIcon}" />
+                                        <Button Content="&#xe64a;" Height="35" Width="35" Margin="3,0"
+                                                Style="{DynamicResource Button_ToolIcon}" />
+                                    </StackPanel>
+                                </Border>
                             </Grid>
-                            <ContentPresenter x:Name="content" Grid.Row="1" Grid.RowSpan="2"
-                                              Margin="{TemplateBinding Padding}"
-                                              HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
-                                              Content="{TemplateBinding Content}" />
+                            <views:MenuPanel x:Name="menuPanel" Margin="0,-120,0,0" VerticalAlignment="Top" Panel.ZIndex="1"
+                                             IsOpen="{Binding ElementName=menuButton, Path=IsChecked, Mode=TwoWay}" />
                         </Grid>
+
                     </Border>
                     <ControlTemplate.Triggers>
                         <Trigger Property="ContentFill" Value="True">
@@ -109,9 +134,6 @@
                         </Trigger>
                         <Trigger Property="ContentFill" Value="False">
                             <Setter TargetName="content" Property="Grid.Row" Value="1" />
-                        </Trigger>
-                        <Trigger Property="IsActive" Value="True">
-                            <Setter TargetName="mainBorder" Property="Background" Value="Red" />
                         </Trigger>
                     </ControlTemplate.Triggers>
                 </ControlTemplate>

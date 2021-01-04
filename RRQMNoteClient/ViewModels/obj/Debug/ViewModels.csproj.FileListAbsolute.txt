@@ -4,7 +4,6 @@ D:\OpenCode\RRQMNote\RRQMNoteClient\ViewModels\obj\Debug\ViewModels.csproj.CoreC
 D:\OpenCode\RRQMNote\RRQMNoteClient\ViewModels\obj\Debug\ViewModels.dll
 D:\OpenCode\RRQMNote\RRQMNoteClient\ViewModels\obj\Debug\ViewModels.pdb
 D:\OpenCode\RRQMNote\RRQMNoteClient\ViewModels\bin\Debug\RRQMMVVM.dll
-D:\OpenCode\RRQMNote\RRQMNoteClient\ViewModels\obj\Debug\ViewModels.csprojAssemblyReference.cache
 D:\OpenCode\RRQMNote\RRQMNoteClient\ViewModels\obj\Debug\ViewModels.csproj.CopyComplete
 E:\CodeOpen\RRQMNote\RRQMNoteClient\ViewModels\bin\Debug\ViewModels.dll
 E:\CodeOpen\RRQMNote\RRQMNoteClient\ViewModels\bin\Debug\ViewModels.pdb
@@ -14,3 +13,4 @@ E:\CodeOpen\RRQMNote\RRQMNoteClient\ViewModels\obj\Debug\ViewModels.csproj.CopyC
 E:\CodeOpen\RRQMNote\RRQMNoteClient\ViewModels\obj\Debug\ViewModels.dll
 E:\CodeOpen\RRQMNote\RRQMNoteClient\ViewModels\obj\Debug\ViewModels.pdb
 E:\CodeOpen\RRQMNote\RRQMNoteClient\ViewModels\obj\Debug\ViewModels.csprojAssemblyReference.cache
+D:\OpenCode\RRQMNote\RRQMNoteClient\ViewModels\obj\Debug\ViewModels.csprojAssemblyReference.cache

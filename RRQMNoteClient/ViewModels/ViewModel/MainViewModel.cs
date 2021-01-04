@@ -33,6 +33,16 @@ namespace ViewModels.ViewModel
             set { isDisplaySetting = value; OnPropertyChanged(); }
         }
 
+        private NoteWindowViewModel noteWindowViewModel;
+
+        public NoteWindowViewModel NoteWindowViewModel
+        {
+            get { return noteWindowViewModel; }
+            set { noteWindowViewModel = value; OnPropertyChanged(); }
+        }
+
+
+
         #endregion
 
         #region 公共方法（publicMethod）

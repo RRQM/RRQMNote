@@ -7,38 +7,124 @@
             <Setter.Value>
                 <ControlTemplate TargetType="Button">
                     <Border x:Name="border">
-                        <TextBlock Text="{TemplateBinding Content}" FontSize="{TemplateBinding FontSize}"
+                        <Grid>
+                            <TextBlock Text="{TemplateBinding Content}"
                                    HorizontalAlignment="Center" VerticalAlignment="Center"
+                                   FontSize="{TemplateBinding FontSize}"
                                    Style="{DynamicResource TextBlock_Icon}" />
+                            <Rectangle x:Name="rect" Fill="Black" Opacity="0.1" RadiusX="0" RadiusY="0" />
+                        </Grid>
                     </Border>
                     <ControlTemplate.Triggers>
                         <Trigger Property="IsMouseOver" Value="True">
-                            <Setter TargetName="border" Property="Background" Value="#E7E7E7" />
+                            <Setter TargetName="rect" Property="Visibility" Value="Visible" />
                         </Trigger>
                         <Trigger Property="IsMouseOver" Value="False">
-                            <Setter TargetName="border" Property="Background" Value="Transparent" />
+                            <Setter TargetName="rect" Property="Visibility" Value="Hidden" />
                         </Trigger>
                     </ControlTemplate.Triggers>
                 </ControlTemplate>
             </Setter.Value>
         </Setter>
     </Style>
-    
+
+    <Style x:Key="Button_ToolIcon" TargetType="Button">
+        <Setter Property="Focusable" Value="False" />
+        <Setter Property="CommandTarget" Value="{Binding ElementName=content}" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <Border x:Name="border">
+                        <Grid>
+                            <TextBlock Text="{TemplateBinding Content}"
+                                       HorizontalAlignment="Center" VerticalAlignment="Center"
+                                       FontSize="{TemplateBinding FontSize}"
+                                       Style="{DynamicResource TextBlock_Icon}" />
+                            <Rectangle x:Name="rect" Fill="Black" Opacity="0.1" RadiusX="0" RadiusY="0" />
+                        </Grid>
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter TargetName="rect" Property="Visibility" Value="Visible" />
+                        </Trigger>
+                        <Trigger Property="IsMouseOver" Value="False">
+                            <Setter TargetName="rect" Property="Visibility" Value="Hidden" />
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style x:Key="Button_Menu" TargetType="Button">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <Border x:Name="border" Background="Transparent">
+                        <Grid>
+                            <ContentPresenter Content="{TemplateBinding Content}"
+                                              HorizontalAlignment="Left" VerticalAlignment="Center" />
+                            <Rectangle x:Name="rect" Fill="Black" Opacity="0.1" RadiusX="0" RadiusY="0" />
+                        </Grid>
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter TargetName="rect" Property="Visibility" Value="Visible" />
+                        </Trigger>
+                        <Trigger Property="IsMouseOver" Value="False">
+                            <Setter TargetName="rect" Property="Visibility" Value="Hidden" />
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style x:Key="ToggleButton_Icon" TargetType="ToggleButton">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="ToggleButton">
+                    <Border x:Name="border">
+                        <Grid>
+                            <TextBlock Text="{TemplateBinding Content}"
+                                       HorizontalAlignment="Center" VerticalAlignment="Center"
+                                       FontSize="{TemplateBinding FontSize}"
+                                       Style="{DynamicResource TextBlock_Icon}" />
+                            <Rectangle x:Name="rect" Fill="Black" Opacity="0.1" RadiusX="0" RadiusY="0" />
+                        </Grid>
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter TargetName="rect" Property="Visibility" Value="Visible" />
+                        </Trigger>
+                        <Trigger Property="IsMouseOver" Value="False">
+                            <Setter TargetName="rect" Property="Visibility" Value="Hidden" />
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
     <Style x:Key="Button_SearchIcon" TargetType="Button">
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="Button">
                     <Border x:Name="border" CornerRadius="0,5,5,0">
-                        <TextBlock Text="{TemplateBinding Content}" FontSize="{TemplateBinding FontSize}"
-                                   HorizontalAlignment="Center" VerticalAlignment="Center"
-                                   Style="{DynamicResource TextBlock_Icon}" />
+                        <Grid>
+                            <TextBlock Text="{TemplateBinding Content}"
+                                       HorizontalAlignment="Center" VerticalAlignment="Center"
+                                       FontSize="{TemplateBinding FontSize}"
+                                       Style="{DynamicResource TextBlock_Icon}" />
+                            <Rectangle x:Name="rect" Fill="Black" Opacity="0.1" RadiusX="0" RadiusY="0" />
+                        </Grid>
                     </Border>
                     <ControlTemplate.Triggers>
                         <Trigger Property="IsMouseOver" Value="True">
-                            <Setter TargetName="border" Property="Background" Value="#E7E7E7" />
+                            <Setter TargetName="rect" Property="Visibility" Value="Visible" />
                         </Trigger>
                         <Trigger Property="IsMouseOver" Value="False">
-                            <Setter TargetName="border" Property="Background" Value="Transparent" />
+                            <Setter TargetName="rect" Property="Visibility" Value="Hidden" />
                         </Trigger>
                     </ControlTemplate.Triggers>
                 </ControlTemplate>

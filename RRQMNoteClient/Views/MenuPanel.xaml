@@ -1,0 +1,52 @@
+﻿<Grid x:Class="Views.MenuPanel"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:local="clr-namespace:Views"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      x:Name="menuPopup"
+      Height="100"
+      d:DesignWidth="340"
+      Background="White"
+      mc:Ignorable="d">
+    <Grid.Effect>
+        <DropShadowEffect BlurRadius="8" Direction="225" ShadowDepth="1" />
+    </Grid.Effect>
+    <Grid.RowDefinitions>
+        <RowDefinition />
+        <RowDefinition />
+        <RowDefinition />
+    </Grid.RowDefinitions>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <Rectangle Grid.Column="0" Fill="#FFE66E" />
+        <Rectangle Grid.Column="1" Fill="#9FEC99" />
+        <Rectangle Grid.Column="2" Fill="#FAACDB" />
+        <Rectangle Grid.Column="3" Fill="#D7AFFF" />
+        <Rectangle Grid.Column="4" Fill="#9DDDFD" />
+        <Rectangle Grid.Column="5" Fill="#E0E0E0" />
+        <Rectangle Grid.Column="6" Fill="#767676" />
+    </Grid>
+    <Button Grid.Row="1" Style="{DynamicResource Button_Menu}">
+        <StackPanel Orientation="Horizontal">
+            <TextBlock Text="&#xe603;" Margin="10,0" FontSize="10" FontWeight="Black"
+                       Style="{DynamicResource TextBlock_Icon}" />
+            <TextBlock Text="笔记列表" FontWeight="Black" />
+        </StackPanel>
+    </Button>
+    <Button Grid.Row="2" Style="{DynamicResource Button_Menu}">
+        <StackPanel Orientation="Horizontal">
+            <TextBlock Text="&#xe67d;" Margin="10,0" FontSize="15" FontWeight="Black" Foreground="Red"
+                       Style="{DynamicResource TextBlock_Icon}" />
+            <TextBlock Text="删除笔记" FontWeight="Black" Foreground="Red" />
+        </StackPanel>
+    </Button>
+</Grid>
